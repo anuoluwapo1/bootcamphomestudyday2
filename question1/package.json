@@ -1,0 +1,19 @@
+{
+  "name": "bootcamphomestudyday2",
+  "version": "1.0.0",
+  "description": "Bootcamp homestudy day 2 solutions code",
+  "main": "app/library.js",
+  "scripts": {
+    "test": "tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuonifade/bootcamphomestudyday2.git"
+  },
+  "author": "Anu Onifade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anuonifade/bootcamphomestudyday2/issues"
+  },
+  "homepage": "https://github.com/anuonifade/bootcamphomestudyday2#readme"
+}

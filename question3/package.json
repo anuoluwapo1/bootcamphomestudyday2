@@ -1,0 +1,22 @@
+{
+  "name": "bootcamphomestudyday2",
+  "version": "1.0.0",
+  "description": "Question 3 of the Bootcamp Homestudy Day 2. An API request that consumes a public webservice",
+  "main": "apirest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuonifade/bootcamphomestudyday2.git"
+  },
+  "author": "Anuoluwapo Onifade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anuonifade/bootcamphomestudyday2/issues"
+  },
+  "homepage": "https://github.com/anuonifade/bootcamphomestudyday2#readme",
+  "dependencies": {
+    "unirest": "^0.5.1"
+  }
+}
