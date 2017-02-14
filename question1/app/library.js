@@ -14,7 +14,12 @@ function mapper(itemToMap){
 function reducer(intermediateResult, currentKey){
 	
 	if (currentKey) {
-		intermediateResult[currentKey] = (intermediateResult[currentKey] || 0) + 1;
+		if(currentKey === 'toString' && !Number.isInteger(intermediateResult[currentKey])){
+			intermediateResult[currentKey] = 1; 
+		}
+		else{
+			intermediateResult[currentKey] = (intermediateResult[currentKey] || 0) + 1;
+		}
 	} 
 	return intermediateResult; //The intermediate result will then be passed to the map function to generate the result.
 }
